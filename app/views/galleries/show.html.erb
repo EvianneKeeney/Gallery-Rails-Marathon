@@ -1,0 +1,16 @@
+<h1><%= @gallery.name%></h1>
+<p>
+  <%= @gallery.city%>
+  <%= @gallery.state%>
+  <%= @gallery.zip%>
+  <%= @gallery.description%>
+</p>
+
+<h2> Featured paintings </h2>
+
+<% @paintings.each do |painting| %>
+  <p> Title: </p> <%= painting.title %>
+  <p> Artist(s)</p> <%= painting.artists %>
+<% end %>
+
+<%= link_to 'Add Painting', new_gallery_painting_path(@gallery) %>

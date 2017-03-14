@@ -1,0 +1,1737 @@
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/eviannekeeney/challenges/rails-marathon/config/environment.rb:5)
+Started GET "/questions" for ::1 at 2017-03-02 15:11:38 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from raise_in_transactional_callbacks= at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/activerecord-5.0.0/lib/active_record/transactions.rb:283)
+  
+ActionController::RoutingError (No route matches [GET] "/questions"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.3ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.2ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (203.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (187.0ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (356.0ms)
+Started GET "/" for ::1 at 2017-03-02 15:11:46 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb (6.3ms)
+Completed 200 OK in 37ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-02 15:11:49 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb (5.9ms)
+Completed 200 OK in 17ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from raise_in_transactional_callbacks= at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/activerecord-5.0.0/lib/active_record/transactions.rb:283)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from load at /Users/eviannekeeney/.gem/ruby/2.3.3/bin/rake:22)
+  [1m[35m (404.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (39.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (24.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5170893669298709835);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateGalleries (20170302201249)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (4.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(5170893669298709835)[0m
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from load at /Users/eviannekeeney/.gem/ruby/2.3.3/bin/rake:22)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5170893669298709835);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateGalleries (20170302201249)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (153.9ms)[0m  [1m[35mCREATE TABLE "galleries" ("id" serial primary key, "name" character varying NOT NULL, "city" character varying NOT NULL, "state" character varying NOT NULL, "zip" integer NOT NULL, "description" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (52.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170302201249"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (33.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (25.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-03-02 20:16:14 UTC], ["updated_at", 2017-03-02 20:16:14 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(5170893669298709835)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (39.1ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'galleries'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started GET "/" for ::1 at 2017-03-02 15:23:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb (6.9ms)
+Completed 200 OK in 63ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-02 15:30:08 -0500
+  
+ActionController::RoutingError (uninitialized constant GalleriesController):
+  
+activesupport (5.0.0) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.0) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.0) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.0) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.0) lib/active_support/inflector/methods.rb:266:in `constantize'
+actionpack (5.0.0) lib/action_dispatch/http/request.rb:93:in `controller_class'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.0) lib/active_record/migration.rb:552:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (63.9ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (265.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (130.4ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (287.5ms)
+Started GET "/" for ::1 at 2017-03-02 15:31:37 -0500
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for GalleriesController):
+  
+actionpack (5.0.0) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.0) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.0) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.0) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.0) lib/active_record/migration.rb:552:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (115.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (253.5ms)
+Started GET "/" for ::1 at 2017-03-02 15:31:54 -0500
+Processing by GalleriesController#index as HTML
+Completed 406 Not Acceptable in 97ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (GalleriesController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not… nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.0.0) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
+actionpack (5.0.0) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.0.0) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.0.0) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.0.0) lib/abstract_controller/base.rb:188:in `process_action'
+actionpack (5.0.0) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.0.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.0.0) lib/active_support/callbacks.rb:126:in `call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+activesupport (5.0.0) lib/active_support/callbacks.rb:455:in `call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.0.0) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.0.0) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.0.0) lib/active_support/notifications.rb:164:in `block in instrument'
+activesupport (5.0.0) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.0.0) lib/active_support/notifications.rb:164:in `instrument'
+actionpack (5.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.0.0) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.0) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.0) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.0) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.0) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.0) lib/active_record/migration.rb:552:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (139.0ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (119.4ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (269.5ms)
+Started GET "/" for ::1 at 2017-03-02 15:33:04 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  Rendered galleries/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 679ms (Views: 675.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-03-02 15:33:05 -0500
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-02 15:33:05 -0500
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (77.2ms)[0m  [1m[32mINSERT INTO "galleries" ("name", "city", "state", "zip", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "new gallery"], ["city", "shshsh"], ["state", "pa"], ["zip", 19898], ["created_at", 2017-03-02 20:38:33 UTC], ["updated_at", 2017-03-02 20:38:33 UTC]]
+  [1m[35m (50.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2017-03-02 15:38:37 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (1.3ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 151ms (Views: 99.7ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-02 15:42:47 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (1.8ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 30ms (Views: 24.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2017-03-02 15:44:16 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.6ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 226ms (Views: 199.1ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/galleries/new" for ::1 at 2017-03-02 15:44:30 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/eviannekeeney/challenges/rails-marathon/app/views/galleries/new.html.erb:1: syntax error, unexpected keyword_do_block, expecting keyword_end
+....append=  form_for[@gallery] do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/eviannekeeney/challenges/rails-marathon/app/views/galleries/new.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/galleries/new.html.erb:1: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/galleries/new.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (15.0ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (166.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (146.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (316.1ms)
+Started GET "/galleries/new" for ::1 at 2017-03-02 15:44:46 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for (@gallery) do |f| %>
+    2:   <%= f.label :name %>
+    3:   <%= f.text_field :name %>
+    4: 
+  
+app/views/galleries/new.html.erb:1:in `_app_views_galleries_new_html_erb__3892288825777841727_70215541035100'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.9ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.0ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (120.4ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (265.8ms)
+Started GET "/galleries/new" for ::1 at 2017-03-02 15:46:08 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 107ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries/new" for ::1 at 2017-03-02 15:52:17 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 106ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 15:55:10 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+3JGICeoY1t7EjBN9ISvVF/JbIxBGCAk0hdIOJzVY+knaeb3A3DbrwDM4a3zXtT5tQhy3pQAkBcTnc1ZbHGlog==", "gallery"=>{"name"=>"", "city"=>"", "state"=>"", "zip"=>"", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 98ms (Views: 75.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/galleries" for ::1 at 2017-03-02 15:55:30 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (1.1ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 35ms (Views: 28.1ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 15:55:34 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+3JGICeoY1t7EjBN9ISvVF/JbIxBGCAk0hdIOJzVY+knaeb3A3DbrwDM4a3zXtT5tQhy3pQAkBcTnc1ZbHGlog==", "gallery"=>{"name"=>"", "city"=>"", "state"=>"", "zip"=>"", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (3.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[31mROLLBACK[0m
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 51ms (Views: 37.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/" for ::1 at 2017-03-02 15:57:45 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.8ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 108ms (Views: 103.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/galleries/new" for ::1 at 2017-03-02 15:57:47 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 45ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries/new" for ::1 at 2017-03-02 15:58:56 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 109ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 15:59:00 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cBoq3zwUChz4ifFCVjOcBQECUJMQXWKagngfQI2VoaesAYoIGMyy6INXIKJR6eeo68NOwcVF0qlD8pohfTFn7A==", "gallery"=>{"name"=>"", "city"=>"", "state"=>"", "zip"=>"", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 56ms (Views: 42.7ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 15:59:27 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3COwtyrtdFrcTrdrl9a7tIhBKP475G6HyyIJ7QenTi4AOBBgDjXMrqeQZouQDMAZYoA2rO783rQKqIyM9wOIZQ==", "gallery"=>{"name"=>"new gallery 2", "city"=>"wayne", "state"=>" pa", "zip"=>"19087", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (7.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (27.8ms)[0m  [1m[32mINSERT INTO "galleries" ("name", "city", "state", "zip", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "new gallery 2"], ["city", "wayne"], ["state", " pa"], ["zip", 19087], ["description", ""], ["created_at", 2017-03-02 20:59:27 UTC], ["updated_at", 2017-03-02 20:59:27 UTC]]
+  [1m[35m (34.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 566ms (ActiveRecord: 69.9ms)
+
+
+  
+NoMethodError (undefined method `gallery_path' for #<GalleriesController:0x007fb8a9812798>
+Did you mean?  galleries_path):
+  
+app/controllers/galleries_controller.rb:16:in `create'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (152.0ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (146.1ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (303.9ms)
+Started POST "/galleries" for ::1 at 2017-03-02 15:59:57 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3COwtyrtdFrcTrdrl9a7tIhBKP475G6HyyIJ7QenTi4AOBBgDjXMrqeQZouQDMAZYoA2rO783rQKqIyM9wOIZQ==", "gallery"=>{"name"=>"new gallery 2", "city"=>"wayne", "state"=>" pa", "zip"=>"19087", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "galleries" ("name", "city", "state", "zip", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "new gallery 2"], ["city", "wayne"], ["state", " pa"], ["zip", 19087], ["description", ""], ["created_at", 2017-03-02 20:59:58 UTC], ["updated_at", 2017-03-02 20:59:58 UTC]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 7.9ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"galleries"} missing required keys: [:id]):
+  
+app/controllers/galleries_controller.rb:16:in `create'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (154.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (130.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (303.5ms)
+Started POST "/galleries" for ::1 at 2017-03-02 16:01:05 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3COwtyrtdFrcTrdrl9a7tIhBKP475G6HyyIJ7QenTi4AOBBgDjXMrqeQZouQDMAZYoA2rO783rQKqIyM9wOIZQ==", "gallery"=>{"name"=>"new gallery 2", "city"=>"wayne", "state"=>" pa", "zip"=>"19087", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "galleries" ("name", "city", "state", "zip", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "new gallery 2"], ["city", "wayne"], ["state", " pa"], ["zip", 19087], ["description", ""], ["created_at", 2017-03-02 21:01:05 UTC], ["updated_at", 2017-03-02 21:01:05 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 2.1ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"galleries"} missing required keys: [:id]):
+  
+app/controllers/galleries_controller.rb:16:in `create'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (113.4ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (250.2ms)
+Started POST "/galleries" for ::1 at 2017-03-02 16:01:41 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3COwtyrtdFrcTrdrl9a7tIhBKP475G6HyyIJ7QenTi4AOBBgDjXMrqeQZouQDMAZYoA2rO783rQKqIyM9wOIZQ==", "gallery"=>{"name"=>"new gallery 2", "city"=>"wayne", "state"=>" pa", "zip"=>"19087", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[32mINSERT INTO "galleries" ("name", "city", "state", "zip", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "new gallery 2"], ["city", "wayne"], ["state", " pa"], ["zip", 19087], ["description", ""], ["created_at", 2017-03-02 21:01:41 UTC], ["updated_at", 2017-03-02 21:01:41 UTC]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 3.8ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"galleries"} missing required keys: [:id]):
+  
+app/controllers/galleries_controller.rb:16:in `create'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (117.0ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (266.6ms)
+Started POST "/galleries" for ::1 at 2017-03-02 16:02:50 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3COwtyrtdFrcTrdrl9a7tIhBKP475G6HyyIJ7QenTi4AOBBgDjXMrqeQZouQDMAZYoA2rO783rQKqIyM9wOIZQ==", "gallery"=>{"name"=>"new gallery 2", "city"=>"wayne", "state"=>" pa", "zip"=>"19087", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "galleries" ("name", "city", "state", "zip", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "new gallery 2"], ["city", "wayne"], ["state", " pa"], ["zip", 19087], ["description", ""], ["created_at", 2017-03-02 21:02:50 UTC], ["updated_at", 2017-03-02 21:02:50 UTC]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 2.5ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"galleries"} missing required keys: [:id]):
+  
+app/controllers/galleries_controller.rb:16:in `create'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (136.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (128.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (285.2ms)
+Started POST "/galleries" for ::1 at 2017-03-02 16:03:42 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3COwtyrtdFrcTrdrl9a7tIhBKP475G6HyyIJ7QenTi4AOBBgDjXMrqeQZouQDMAZYoA2rO783rQKqIyM9wOIZQ==", "gallery"=>{"name"=>"new gallery 2", "city"=>"wayne", "state"=>" pa", "zip"=>"19087", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "galleries" ("name", "city", "state", "zip", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "new gallery 2"], ["city", "wayne"], ["state", " pa"], ["zip", 19087], ["description", ""], ["created_at", 2017-03-02 21:03:42 UTC], ["updated_at", 2017-03-02 21:03:42 UTC]]
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/galleries/7
+Completed 302 Found in 36ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/galleries/7" for ::1 at 2017-03-02 16:03:42 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGallery Load (0.8ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  Rendered galleries/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1419ms (Views: 139.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/galleries/7" for ::1 at 2017-03-02 16:04:28 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mGallery Load (4.3ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  Rendered galleries/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 105ms (Views: 92.9ms | ActiveRecord: 5.4ms)
+
+
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from require at /Users/eviannekeeney/challenges/rails-marathon/bin/rails:9)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5170893669298709835);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePaintings (20170302210500)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (46.6ms)[0m  [1m[35mCREATE TABLE "paintings" ("id" serial primary key, "title" character varying NOT NULL, "artists" character varying NOT NULL, "gallery_id" integer NOT NULL)[0m
+  [1m[35m (16.4ms)[0m  [1m[35mCREATE  INDEX  "index_paintings_on_gallery_id" ON "paintings"  ("gallery_id")[0m
+  [1m[35mSQL (21.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170302210500"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (12.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5170893669298709835)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (7.7ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'galleries'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (6.0ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'paintings'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started GET "/galleries/7" for ::1 at 2017-03-02 16:11:22 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  Rendering galleries/show.html.erb within layouts/application
+  Rendered galleries/show.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h1><%= @gallery.name%>
+    2:   <%= @gallery.city%>
+    3:   <%= @gallery.state%>
+    4:   <%= @gallery.zip%>
+  
+app/views/galleries/show.html.erb:1:in `_app_views_galleries_show_html_erb__1642298016843959589_70215539276520'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (146.8ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (140.1ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (346.3ms)
+Started GET "/galleries/7" for ::1 at 2017-03-02 16:12:21 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  Rendering galleries/show.html.erb within layouts/application
+  Rendered galleries/show.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h1>
+    2:   <%= @gallery.name%>
+    3:   <%= @gallery.city%>
+    4:   <%= @gallery.state%>
+    5:   <%= @gallery.zip%>
+  
+app/views/galleries/show.html.erb:2:in `_app_views_galleries_show_html_erb__1642298016843959589_70215556305600'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (142.8ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (114.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (259.9ms)
+Started GET "/galleries/7" for ::1 at 2017-03-02 16:13:42 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  Rendering galleries/show.html.erb within layouts/application
+  Rendered galleries/show.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h1><%= @gallery.name%></h1>
+    2: <p>
+    3:   <%= @gallery.city%>
+    4:   <%= @gallery.state%>
+  
+app/views/galleries/show.html.erb:1:in `_app_views_galleries_show_html_erb__1642298016843959589_70215527956900'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (150.7ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (119.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (262.5ms)
+Started GET "/galleries/7" for ::1 at 2017-03-02 16:14:55 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  Rendering galleries/show.html.erb within layouts/application
+  Rendered galleries/show.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h1><%= @gallery.name%></h1>
+    2: <p>
+    3:   <%= @gallery.city%>
+    4:   <%= @gallery.state%>
+  
+app/views/galleries/show.html.erb:1:in `_app_views_galleries_show_html_erb__1642298016843959589_70215558876560'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.5ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (118.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (265.0ms)
+Started GET "/galleries/7" for ::1 at 2017-03-02 16:19:27 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  Rendering galleries/show.html.erb within layouts/application
+  Rendered galleries/show.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h1><%= @gallery.name%></h1>
+    2: <p>
+    3:   <%= @gallery.city%>
+    4:   <%= @gallery.state%>
+  
+app/views/galleries/show.html.erb:1:in `_app_views_galleries_show_html_erb__1642298016843959589_70215547439840'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.3ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (145.8ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (115.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (257.2ms)
+Started GET "/galleries" for ::1 at 2017-03-02 16:24:24 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.9ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 379ms (Views: 78.1ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/galleries/new" for ::1 at 2017-03-02 16:24:27 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 38ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries" for ::1 at 2017-03-02 16:26:14 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.6ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 56ms (Views: 34.4ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/galleries/new" for ::1 at 2017-03-02 16:26:17 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 32ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galleries/1" for ::1 at 2017-03-02 16:29:42 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGallery Load (0.8ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (17.4ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 1]]
+  Rendered galleries/show.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 240ms (Views: 109.1ms | ActiveRecord: 20.9ms)
+
+
+Started GET "/galleries/1/paintings/new" for ::1 at 2017-03-02 16:29:45 -0500
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"1"}
+  [1m[36mGallery Load (2.9ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering paintings/new.html.erb within layouts/application
+  Rendered paintings/new.html.erb within layouts/application (37.1ms)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 23.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `artist' for #<Painting id: nil, title: nil, artists: nil, gallery_id: nil>
+Did you mean?  artists
+               artists=
+               artists?):
+    10:   <%= f.text_field :title %>
+    11: 
+    12:   <%= f.label :artist %>
+    13:   <%= f.text_field :artist %>
+    14: 
+    15:   <%= f.submit %>
+    16: 
+  
+app/views/paintings/new.html.erb:13:in `block in _app_views_paintings_new_html_erb___4587126108612908668_70215576993900'
+app/views/paintings/new.html.erb:8:in `_app_views_paintings_new_html_erb___4587126108612908668_70215576993900'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (167.1ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (130.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (289.4ms)
+Started GET "/galleries/1/paintings/new" for ::1 at 2017-03-02 16:31:07 -0500
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"1"}
+  [1m[36mGallery Load (0.7ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering paintings/new.html.erb within layouts/application
+  Rendered paintings/new.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `artist' for #<Painting id: nil, title: nil, artists: nil, gallery_id: nil>
+Did you mean?  artists
+               artists=
+               artists?):
+    10:   <%= f.text_field :title %>
+    11: 
+    12:   <%= f.label :artist %>
+    13:   <%= f.text_field :artist %>
+    14: 
+    15:   <%= f.submit %>
+    16: 
+  
+app/views/paintings/new.html.erb:13:in `block in _app_views_paintings_new_html_erb___4587126108612908668_70215550569840'
+app/views/paintings/new.html.erb:8:in `_app_views_paintings_new_html_erb___4587126108612908668_70215550569840'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.4ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.5ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (152.3ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (137.3ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (306.1ms)
+Started GET "/galleries/1/paintings/new" for ::1 at 2017-03-02 17:56:20 -0500
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"1"}
+  [1m[36mGallery Load (1.6ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering paintings/new.html.erb within layouts/application
+  Rendered paintings/new.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 200ms (Views: 171.0ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/galleries/1/paintings" for ::1 at 2017-03-02 17:56:29 -0500
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"//pAU15AVX70EMw9xFz+VkustwDw/y94t5UaqXJoWwAj4eCEepjtio/OHd3DhoX7oW2pUiXnn0t2H5/IgsydSw==", "painting"=>{"title"=>"A really great painting", "artists"=>"me"}, "commit"=>"Create Painting", "gallery_id"=>"1"}
+  [1m[36mGallery Load (3.6ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 10ms (ActiveRecord: 3.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Gallery with 'id'=):
+  
+app/controllers/paintings_controller.rb:9:in `create'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (188.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (135.0ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (352.6ms)
+Started POST "/galleries/1/paintings" for ::1 at 2017-03-02 17:57:29 -0500
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"//pAU15AVX70EMw9xFz+VkustwDw/y94t5UaqXJoWwAj4eCEepjtio/OHd3DhoX7oW2pUiXnn0t2H5/IgsydSw==", "painting"=>{"title"=>"A really great painting", "artists"=>"me"}, "commit"=>"Create Painting", "gallery_id"=>"1"}
+  [1m[36mGallery Load (0.8ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: artists
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 8.5ms)
+
+
+  
+NoMethodError (undefined method `artist' for #<Painting:0x007fb8abcd4270>
+Did you mean?  artists
+               artists=
+               artists?):
+  
+app/controllers/paintings_controller.rb:12:in `create'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (142.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (117.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (258.5ms)
+Started POST "/galleries/1/paintings" for ::1 at 2017-03-02 17:58:19 -0500
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"//pAU15AVX70EMw9xFz+VkustwDw/y94t5UaqXJoWwAj4eCEepjtio/OHd3DhoX7oW2pUiXnn0t2H5/IgsydSw==", "painting"=>{"title"=>"A really great painting", "artists"=>"me"}, "commit"=>"Create Painting", "gallery_id"=>"1"}
+  [1m[36mGallery Load (0.7ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `artist' for #<Painting:0x007fb8aaa521d8>
+Did you mean?  artists
+               artists=
+               artists?):
+  
+app/controllers/paintings_controller.rb:12:in `create'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.3ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (142.0ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (115.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (293.0ms)
+Started POST "/galleries/1/paintings" for ::1 at 2017-03-02 17:59:02 -0500
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"//pAU15AVX70EMw9xFz+VkustwDw/y94t5UaqXJoWwAj4eCEepjtio/OHd3DhoX7oW2pUiXnn0t2H5/IgsydSw==", "painting"=>{"title"=>"A really great painting", "artists"=>"me"}, "commit"=>"Create Painting", "gallery_id"=>"1"}
+  [1m[36mGallery Load (0.4ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (22.5ms)[0m  [1m[32mINSERT INTO "paintings" ("title", "artists", "gallery_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "A really great painting"], ["artists", "me"], ["gallery_id", 1]]
+  [1m[35m (12.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/galleries/1
+Completed 302 Found in 77ms (ActiveRecord: 35.7ms)
+
+
+Started GET "/galleries/1" for ::1 at 2017-03-02 17:59:02 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGallery Load (0.7ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (1.5ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 1]]
+  Rendered galleries/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 484ms (Views: 473.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/galleries/1" for ::1 at 2017-03-02 18:00:22 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGallery Load (0.5ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (0.8ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 1]]
+  Rendered galleries/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 108ms (Views: 101.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/galleries/1" for ::1 at 2017-03-02 18:00:46 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGallery Load (0.6ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (1.2ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 1]]
+  Rendered galleries/show.html.erb within layouts/application (15.8ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 1.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `artist' for #<Painting:0x007fb8a9a72740>
+Did you mean?  artists
+               artists=
+               artists?):
+    10: 
+    11: <% @paintings.each do |painting| %>
+    12:   <%= painting.title %>
+    13:   <%= painting.artist %>
+    14: <% end %>
+    15: 
+    16: <%= link_to 'Add Painting', new_gallery_painting_path(@gallery) %>
+  
+app/views/galleries/show.html.erb:13:in `block in _app_views_galleries_show_html_erb__1642298016843959589_70215542668500'
+app/views/galleries/show.html.erb:11:in `_app_views_galleries_show_html_erb__1642298016843959589_70215542668500'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.6ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (137.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (302.1ms)
+Started GET "/galleries/1" for ::1 at 2017-03-02 18:00:53 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGallery Load (1.1ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (0.7ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 1]]
+  Rendered galleries/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 40ms (Views: 28.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/galleries/1" for ::1 at 2017-03-02 18:01:27 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGallery Load (0.8ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (0.6ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 1]]
+  Rendered galleries/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 52ms (Views: 43.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/galleries/1" for ::1 at 2017-03-02 18:05:09 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGallery Load (0.5ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (0.6ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 1]]
+  Rendered galleries/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 186ms (Views: 173.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/galleries" for ::1 at 2017-03-02 18:06:07 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.8ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 64ms (Views: 59.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/galleries" for ::1 at 2017-03-02 18:06:10 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.6ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 29ms (Views: 24.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/galleries/new" for ::1 at 2017-03-02 18:06:13 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 33ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 18:06:44 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MAE7lvEP4fEks+AaTNrgXP3gHHOZEEr+Dw2SZf1ONBrsGptB1ddZBV9tMfpLAJvxFyECIUwI+s3OhxcEDeryUQ==", "gallery"=>{"name"=>"Another really great gallery ", "city"=>"radnor", "state"=>"pa", "zip"=>"19087", "description"=>"this is a wonderful gallery for looking at paintings"}, "commit"=>"Create Gallery"}
+  [1m[35m (13.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (9.4ms)[0m  [1m[32mINSERT INTO "galleries" ("name", "city", "state", "zip", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Another really great gallery "], ["city", "radnor"], ["state", "pa"], ["zip", 19087], ["description", "this is a wonderful gallery for looking at paintings"], ["created_at", 2017-03-02 23:06:44 UTC], ["updated_at", 2017-03-02 23:06:44 UTC]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/galleries/8
+Completed 302 Found in 38ms (ActiveRecord: 30.5ms)
+
+
+Started GET "/galleries/8" for ::1 at 2017-03-02 18:06:44 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mGallery Load (0.4ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (0.6ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 8]]
+  Rendered galleries/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 46ms (Views: 34.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/galleries/8/paintings/new" for ::1 at 2017-03-02 18:06:47 -0500
+Processing by PaintingsController#new as HTML
+  Parameters: {"gallery_id"=>"8"}
+  [1m[36mGallery Load (3.1ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering paintings/new.html.erb within layouts/application
+  Rendered paintings/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 180ms (Views: 123.5ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/galleries/8/paintings" for ::1 at 2017-03-02 18:07:00 -0500
+Processing by PaintingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XGqn3RA7KPrMgbW9PZms0uI7RTUml2BTjtKfM5djc3+AcQcKNOOQDrdfZF06Q9d/CPpbZ/OP0GBPWBpSZ8e1NA==", "painting"=>{"title"=>"the most beautiful painting in this gallery", "artists"=>"me, of course"}, "commit"=>"Create Painting", "gallery_id"=>"8"}
+  [1m[36mGallery Load (0.5ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "paintings" ("title", "artists", "gallery_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "the most beautiful painting in this gallery"], ["artists", "me, of course"], ["gallery_id", 8]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/galleries/8
+Completed 302 Found in 10ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/galleries/8" for ::1 at 2017-03-02 18:07:00 -0500
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mGallery Load (0.5ms)[0m  [1m[34mSELECT  "galleries".* FROM "galleries" WHERE "galleries"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering galleries/show.html.erb within layouts/application
+  [1m[36mPainting Load (0.6ms)[0m  [1m[34mSELECT "paintings".* FROM "paintings" WHERE "paintings"."gallery_id" = $1[0m  [["gallery_id", 8]]
+  Rendered galleries/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 30ms (Views: 24.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/galleries/8/paintings" for ::1 at 2017-03-02 18:07:11 -0500
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for PaintingsController):
+  
+actionpack (5.0.0) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.0) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.0) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.0) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.0) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.0) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.0) lib/active_record/migration.rb:552:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (129.2ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (273.4ms)
+Started GET "/galleries" for ::1 at 2017-03-02 18:07:19 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (1.5ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 31ms (Views: 26.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/galleries/new" for ::1 at 2017-03-02 18:07:23 -0500
+Processing by GalleriesController#new as HTML
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 40ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 18:07:39 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ssGC69ZRanfkcA6SAl5NV9WYQ41t0n8bqp/ZZBNuggRu2iI88onSg5+u33IFhDb6P1ld37jKzyhrFVwF48pETw==", "gallery"=>{"name"=>"This is gallery 8 ", "city"=>"radnor", "state"=>"pa", "zip"=>"1908777", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (2.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.6ms)[0m  [1m[31mROLLBACK[0m
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 88ms (Views: 76.1ms | ActiveRecord: 7.1ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 18:15:31 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl+wJf+d0uDKMIslT+6mHkirjSwn1msB6Na17mQtd3yaRBDy20VqFLHuWsVINN2zomqTfvLO2zIpXDCPlImxNw==", "gallery"=>{"name"=>"This is gallery 8 ", "city"=>"radnor", "state"=>"pa", "zip"=>"1908777", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 216ms (Views: 171.8ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 18:15:35 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4KteyBcNv2xl5a1SxNIl+usoaTQ8FKDfElJQKfr2hFs8sP4fM9UHmB47fLLDCF5XAel3ZukMEOzT2NVIClJCEA==", "gallery"=>{"name"=>"This is gallery 8 ", "city"=>"radnor", "state"=>"pa", "zip"=>"1908777", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.8ms)[0m  [1m[31mROLLBACK[0m
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 87ms (Views: 58.4ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/galleries" for ::1 at 2017-03-02 18:15:37 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (1.1ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 45ms (Views: 39.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 18:15:49 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sNDMpBr4O93mNSsdMRaR7QXvAwx14piI/5/VkBULmWdsy2xzPiCDKZ3r+v02zOpA7y4dXqD6KLs+FVDx5a9fLA==", "gallery"=>{"name"=>"This is gallery 8 ", "city"=>"radnor", "state"=>"pa", "zip"=>"1908777", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 57ms (Views: 43.1ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/galleries" for ::1 at 2017-03-02 18:15:52 -0500
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RnpUPu55z5Pq7pR5JNXFBV/cmrNbRXxV5ep+jVJVbdiaYfTpyqF3Z5EwRZkjD76otR2E4Y5dzGYkYPvsovGrkw==", "gallery"=>{"name"=>"This is gallery 8 ", "city"=>"radnor", "state"=>"pa", "zip"=>"1908777", "description"=>""}, "commit"=>"Create Gallery"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.0ms)[0m  [1m[31mROLLBACK[0m
+  Rendering galleries/new.html.erb within layouts/application
+  Rendered galleries/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 55ms (Views: 43.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/galleries" for ::1 at 2017-03-02 18:15:55 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (1.2ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 36ms (Views: 30.4ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mGallery Load (1.3ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  [1m[36mGallery Load (0.9ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mSQL (25.2ms)[0m  [1m[31mDELETE FROM "galleries" WHERE "galleries"."id" = $1[0m  [["id", 1]]
+Started GET "/galleries" for ::1 at 2017-03-02 18:17:00 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.7ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 0.7ms)
+
+
+  [1m[36mGallery Load (0.8ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[31mDELETE FROM "galleries" WHERE "galleries"."id" = $1[0m  [["id", 2]]
+  [1m[36mGallery Load (0.7ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[31mDELETE FROM "galleries" WHERE "galleries"."id" = $1[0m  [["id", 3]]
+  [1m[36mGallery Load (0.7ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[31mDELETE FROM "galleries" WHERE "galleries"."id" = $1[0m  [["id", 4]]
+  [1m[36mGallery Load (0.9ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[31mDELETE FROM "galleries" WHERE "galleries"."id" = $1[0m  [["id", 5]]
+Started GET "/galleries" for ::1 at 2017-03-02 18:17:18 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.7ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 31.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/galleries" for ::1 at 2017-03-02 18:57:38 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (1.7ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 465ms (Views: 447.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/galleries.self-fa0d1212fc749824529636bb91a902268ea7ecdd2f2f22b40191e0df03ce03bb.css?body=1" for ::1 at 2017-03-02 18:57:38 -0500
+Started GET "/galleries" for ::1 at 2017-03-02 18:57:40 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (0.7ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 44ms (Views: 39.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/paintings" for ::1 at 2017-03-02 21:00:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/paintings"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/eviannekeeney/.rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.1ms)
+  Rendered collection of /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [8 times] (205.6ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.1ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.5ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (468.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (4.3ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.7ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /Users/eviannekeeney/.gem/ruby/2.3.3/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (147.3ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendering /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/eviannekeeney/.gem/ruby/2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (316.0ms)
+Started GET "/" for ::1 at 2017-03-03 09:37:12 -0500
+Processing by GalleriesController#index as HTML
+  Rendering galleries/index.html.erb within layouts/application
+  [1m[36mGallery Load (35.9ms)[0m  [1m[34mSELECT "galleries".* FROM "galleries"[0m
+  Rendered galleries/index.html.erb within layouts/application (59.6ms)
+Completed 200 OK in 310ms (Views: 230.1ms | ActiveRecord: 35.9ms)
+
+
